@@ -220,7 +220,7 @@ tmux_conf_theme_clock_style='24'
 #Window splits
 bind-key | split-window -h -c "#{pane_current_path}"
 bind-key - split-window -v -c "#{pane_current_path}"
-bind c new-window -c "#{pane_current_path}"
+#bind c new-window -c "#{pane_current_path}"
 
 #move around windows with arrow keys
 bind-key -n "C-Left"  select-window -t :-
